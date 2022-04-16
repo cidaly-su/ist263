@@ -1,0 +1,30 @@
+body {font-family: Georgia, 'Times New Roman', Times, serif; background-color: #D3D3D3;}
+p {color: #7aadff;}
+h1, h2 {color: #00205B;}
+a {color: #00205B;}
+nav {background-color: #7393B3; padding: 10px; margin-bottom: 30px;}
+nav a {color: #7aadff;}
+nav a:hover {background-color:
+    #CBEBF5;}
+h1 {font-size: 3em;}
+h2 {font-size: 1.5em;}
+.right {float: right;}
+.row1, .row2 {display: flex; padding: 10px; margin: 30px; flex-wrap: wrap;}
+.row1 {background-color: #7393B3; border-radius: 1em;}
+.row2 {background-color: #7393B3; border-radius: 1em;}
+.adresscol {flex: 1; order:1;}
+.emailcol {flex:1; order: 2; margin: 45px;}
+.mapcol {flex: 3; order: 2; margin: 40px; flex-wrap: wrap;}
+.formcol {flex: 2; order: 1; padding: 5px; margin: 30px; flex-wrap: wrap;}
+.header {display: flex; justify-content: center;}
+.flexbox1 {display: flex; flex: 3; justify-content: space-between; margin-top: 50px;}
+.flexbox2 {display: flex; margin: 15px; padding: 15px; justify-content: space-around;}
+.OtherSkills {background-color: #7393B3; border-radius: 1em; margin: 0 auto; flex: 1; padding: 10px;}
+.image {max-width: 100%;}
+@media only screen and (max-width: 700px)  {}
+    nav a {
+        display: block;
+        padding: 8px;
+        width: 100%;}
+    span {display: none; }
+    

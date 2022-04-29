@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Question</title>
+    <script>
+        function rightAnswer() {
+            document.getElementByID('right').innerHTML = "True is correct." ;
+            document.getElementById("thepage").style.backgroundColor = document.getElementById("picker").value;
+
+        }
+        function wrongAnswer () {
+            document.getElementById('wrong').innerHTML = "False is incorrect.";
+        }
+    </script>
+</head>
+<body>
+    <p>The semester ends May 13th.</p> 
+    <p id="right" onclick="rigthAnswer();">True</p>
+    <p id="wrong" onclick="wrongAnswer();">False</p>
+</body>
+</html>

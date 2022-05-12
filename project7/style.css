@@ -1,0 +1,28 @@
+@media only screen and (max-width: 700px)  {}
+    nav a {
+        padding: 10px;
+        width: 100%;}
+    span {display: none; }
+    body {font-family: Georgia, 'Times New Roman', Times, serif; background-color: #D3D3D3;}
+    p {color: #00205B; display: block; font-size: 1.2em;}
+    h1 {text-align: center; font-size: 3em;}
+    h2 {font-size: 1.5em;}
+    h3 {text-align: center;}
+    h1, h2, h3, h4 {color: #00205B;}
+    a {color: #00205B;}
+    nav {background-color: #7393B3; padding: 10px; margin-bottom: 30px; display: flex;
+        justify-content: flex-end; text-align: center;}
+    nav a {color: #00205B;}
+    nav a:hover {background-color:
+        #CBEBF5;}
+.pic {float: left; width: 40%; margin: 60px;}
+.intro {float: right; width: 40%; margin: 60px;}
+.example {display: inline-block;}
+.row1 {display: flex;}
+.tops1 {flex: 1; justify-content: flex-end; text-align: center;}
+.jewelry {flex: 1; justify-content: flex-end; text-align: center;}
+.row2 {display: flex;}
+.tops2 {flex: 1; justify-content: flex-end; text-align: center;}
+.makeup {flex: 1; justify-content: flex-end; text-align: center;}
+.row3 {display: flex;}
+.pants1 {flex:1; justify-content: flex-end; text-align: center;}
